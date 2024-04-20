@@ -1,0 +1,74 @@
+.principal {
+    position: relative;
+    width: 100%;
+}
+body{
+    color: #eacecb;
+    background-color: #3b5a64;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+.principal .fotos{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+flex-direction: column;
+
+
+
+}
+.fotos img{
+    width: 25vh;
+
+    margin: 2vh;
+    margin-bottom: 3vh;
+    border-radius: 15px;
+    position: relative;
+    left: 10vh;
+    box-shadow: 0px 8px 16px #c9d8dd;
+}
+.sobrelan{
+    margin-right: 5vh;
+    margin-left: 5vh;
+    color: #eacecb;
+    font-size: 20px;
+}
+.titulo{
+    font-size: 30px;
+    margin-left: 4vh;
+    color: #6d8d97;
+    text-shadow:25px 25px 3px #c9d8dd;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+a{
+    color: #eacecb;
+    text-decoration: none;
+}
+ul li{
+    transition: .8s;
+    border-radius: 15px;
+   
+}
+ul li:hover {
+    background-color: #6d8d97;
+    padding: 10px;
+}
+ul{
+    position: relative;
+    gap: 105px;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding: 15px;
+}
+header{
+    text-align: center;
+    position: relative  ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 0% 10% ;
+}
